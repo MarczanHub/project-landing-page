@@ -12,7 +12,7 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 0px 100px 100px 100px;
+    padding: 0px 150px 150px 150px;
     margin: 0;
     background-color: #1f2937;
 }
@@ -57,8 +57,11 @@ a {
     color: #f9faf8;
 }
 
-.header-image {
+.hero-container {
     display: flex;
-    width: 330px;
-    height: 140px;
+    justify-content: space-between;
+}
+.header-image {
+    width: 540px;
+    height: 220px;
 }
