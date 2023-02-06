@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 body {
     display: flex;
@@ -24,7 +24,7 @@ body {
 }
 
 .header-logo {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 700;
     color: #f9faf8;
 }
@@ -39,28 +39,29 @@ ul{
 
 a {
     text-decoration: none;
-    font-size: 18px;
+    font-size: 22px;
     color: #e5e7eb;
 }
 
 .hero-main-text {
-    font-size: 48px;
+    font-size: 52px;
     font-weight: 800;
-    max-width: 450px;
+    max-width: 350px;
     color: #f9faf8;
 }
 
 .hero-secondary-text{
-    font-size: 18px;
-    max-width: 450px;
-    padding-bottom:10px;
+    font-size: 22px;
+    max-width: 550px;
+    padding-bottom:12px;
     color: #e5e7eb;
 }
 
 .hero-button {
     background: #3882f6;
+    font-size: 20px;
     font-weight: bold;
-    padding: 6px 32px;
+    padding: 8px 36px;
     border-radius: 8px;
     border: 1px solid #3882f6;
     color: white;
@@ -71,8 +72,8 @@ a {
     justify-content: space-between;
 }
 .header-image {
-    width: 540px;
-    height: 220px;
+    width: 580px;
+    height: 240px;
 }
 
 .content { 
