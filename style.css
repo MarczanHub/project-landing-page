@@ -13,7 +13,13 @@ body {
     background-color: #1f2937;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 ul{
+    display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -29,7 +35,7 @@ a {
     color: #f9faf8;
 }
 
-.hero-secondary-text, .header-links {
+.hero-secondary-text, .links {
     font-size: 18px;
     color: #e5e7eb;
 }
