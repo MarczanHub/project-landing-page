@@ -75,19 +75,19 @@ a {
     height: 220px;
 }
 
-.content {
+.content { 
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.content-container {
+.content-container { 
     display: flex;
     flex-direction: column;
     max-width: 200px;
 }
 
-.information {
+.information { 
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -96,7 +96,7 @@ a {
     color: #1f2937;
 }
 
-.content-image {
+.content-image { 
     width: 160px;
     height: 160px;
     border: 4px #3882f6 solid;
