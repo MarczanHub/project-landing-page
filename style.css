@@ -22,11 +22,14 @@ ul{
     display: flex;
     margin: 0;
     padding: 0;
+    gap: 16px;
     list-style: none;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .hero-main-text {
@@ -35,7 +38,7 @@ a {
     color: #f9faf8;
 }
 
-.hero-secondary-text, .links {
+.hero-secondary-text{
     font-size: 18px;
     color: #e5e7eb;
 }
