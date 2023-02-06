@@ -13,6 +13,16 @@ body {
     background-color: #1f2937;
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
@@ -30,6 +40,7 @@ body {
 }
 
 .header-image {
+    display: flex;
     width: 330px;
     height: 140px;
 }
