@@ -78,28 +78,30 @@ a {
 .content { 
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
 }
 
 .content-container { 
     display: flex;
     flex-direction: column;
     max-width: 200px;
+    text-align: center;
+    font-size: 22px;
 }
 
 .information { 
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
     font-size: 36px;
     font-weight: 800;
     color: #1f2937;
 }
 
 .content-image { 
-    width: 160px;
-    height: 160px;
+    width: 200px;
+    height: 200px;
     border: 4px #3882f6 solid;
+    margin-bottom: 10px;
     border-radius: 10%;
-    margin: 40px 20px;
 }
